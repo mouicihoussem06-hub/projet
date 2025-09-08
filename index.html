@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayee collection-AYA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        
+        <img src="/425812029_918731673160268_5550468860078057593_n.jpg" alt="Ayee Collection Logo" width="200">
+
+        <a href="#home">Home</a>
+        
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#commander">commander</a>
+        <a href="#contact">Contact</a>
+            
+        
+    </header>
+    <section id="home">
+        <h1>Welcome to Ayee Collection from AYA</h1>
+        <p>Your one-stop shop for trendy and affordable fashion.</p>
+    </section>
+    <h2  class="product"id="products" >Our Products</h2>
+    <h3 class="product"> robe chemises</h3>
+    <section class="cards">
+        
+            <div class="card">
+                <img src="/unnamed.jpg" alt="Product 1">
+                <p>Couleur: Bleu</p>
+                <p>Tissu: Lin 1er choix</p>
+                <p>Prix:4500DA</p>
+                <button><a href="#commander">commander</a></button>
+            </div>
+            <div class="card">
+                <img src="/unnamed (1).jpg" alt="Product 2">
+                <p>Couleur: Rose</p>
+                <p>Tissu: Lin 1er choix</p>
+                <p >Prix: 4500DA</p>
+                <button><a href="#commander">commander</a></button>
+                
+                
+            </div>
+            <div class="card">
+                <img src="/unnamed (4).jpg" >
+                <p>Couleur: Orange</p>
+                <p>Tissu: Lin 1er choix</p>
+                <p >Prix: 4400DA</p>
+                <button><a href="#commander">commander</a></button>
+
+            </div>
+            
+    </section>
+    
+    <h3 class="product">robe serane</h3>
+    <div>
+        <div class="cards">
+            <div class="card">
+                <img src="/unnamed (2).jpg" alt="Product 3">
+                <p class="description">"Ajustable par l'arriere"</p>
+                <p>Couleur: Bordeaux</p>
+                <p>Tissu Mazerati</p>
+                <p>Prix:4500DA</p>
+                <button><a href="#commander">commander</a></button>
+            </div>
+            <div class="card">
+                <img src="/unnamed (3).jpg" alt="Product 4">
+                <p class="description">"Ajustable par l'arriere"</p>
+                <p>Couleur: Beige</p>
+                <p>Tissu Mazerati</p>
+                <p>Prix:4200DA</p>
+                <button><a href="#">commander</a></button>
+            </div>
+        </div>
+
+    </div>
+    <button class="more"><a href="#moreproducts">more products</a></button>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Ayee Collection from AYA is dedicated to providing stylish and affordable fashion for everyone. Our mission is to make you look and feel your best.</p>
+        <button ><a href="#contact">more</a></button>
+
+    </section>
+    <section class="cards" id="moreproducts">
+        <div class="card2">
+            <h3>Ensemble Chocolat</h3>
+            <img src="/unnamed (5).jpg">
+            <p class="description">"Jupe droite + Haut croisé"</p>
+            <p>Froissé  1er choix</p>
+            <p>Prix : 3900 Da</p>
+            <button><a href="#commander">commander</a></button>
+
+        </div>
+        <div class="card2">
+            <h3>Robe Elyna</h3>
+            <img src="/unnamed (6).jpg">
+            <p class="description">" Ajustable à l’arrière."</p>
+            <p>Tissu: crêpe américain</p>
+            <p>Couleur: Rose</p>
+            <p>Prix : 4200 Da</p>
+            <button><a href="#commander">commander</a></button>
+
+        </div>
+        <div class="card2">
+            <h3>Ensemble Royea</h3>
+            <img src="/unnamed (7).jpg">
+            <p>Couleur: Noir</p>
+            <p>Prix : 4500 Da</p>
+            <button><a href="#commander">commander</a></button>
+
+        </div>
+        <div class="card2">
+            <h3>Robe Love</h3>
+            <img src="/unnamed (8).jpg">
+            <p>Couleur: Beige</p>
+            <p>Prix : 4500 Da</p>
+            <button><a href="#commander">commander</a></button>
+            
+
+        </div>
+    </section>
+    <h4>Only these products are available this time. sorry:)</h4>
+    <p>for more informations about the new arrivage of products follow us on instagram</p>
+    <button class="follow"><a href="https://www.instagram.com/ayee__collection/">instagram</a></button>
+    <section class="commande" id="commander">
+        <h2>Passer une commande</h2>
+        <p>Remplissez le formulaire ci-dessous pour commander nos délices.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="product">Select Product:</label>
+            <select id="product" name="product" required>
+                <option value="robe">Robe</option>
+                <option value="ensemble">Ensemble</option>
+                <option value="chemise">Chemise</option>
+            </select>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            <label for="taille">taille:</label>
+            <input type="number" id="taille" name="taille" min="34" max="50" required>
+            <label for="message">message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            
+            <button type="submit">Submit Order</button>
+        </form>
+
+    </section>
+    <footer class="contact" id="contact">
+        <p>contact us here:</p>
+        <a href="https://www.instagram.com/ayee__collection/">instagram</a>
+
+    </footer>
+
+</body>
+</html>
